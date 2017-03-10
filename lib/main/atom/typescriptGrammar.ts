@@ -35,7 +35,7 @@ export class TypeScriptSemanticGrammar extends AtomTSBaseGrammar {
             });
     }
 
-    /** only set to true if we have a trailingWhiteSpace for the currenlty analyzed line */
+    /** only set to true if we have a trailingWhiteSpace for the currently analyzed line */
     trailingWhiteSpaceLength = 0;
     tokenizeLine(line: string, ruleStack: any[], firstLine = false): AtomTSTokens {
 
